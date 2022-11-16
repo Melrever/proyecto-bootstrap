@@ -19,7 +19,7 @@ header{
 
 
 .container__header{
-    max-width: 1200px;
+  
     height: 100%;  
     display: flex;
     justify-content: space-between; 
@@ -48,7 +48,7 @@ header .logo{
 
 nav{
     height: 100%;
-
+text-decoration: none;
     
 }
 
@@ -56,32 +56,38 @@ nav{
 nav .grid{
     margin: 0px 20px;
     list-style: none;
-    text-decoration: none;
+    
     height: 100%;
     display: flex;
     justify-content: center;
     
 }
 
-.grid{
+.grid {
     color: #373737;
     font-size: 14px;
     list-style: none;
     width: 25px;
     padding: 25px;
-    text-decoration: none;
+   
    
 }
-.select{
-    padding: 10px 30px;
+.select {
+    padding: 10px 30px ;
     color: #373737;
     border-radius: 50px;
-    text-decoration: none;
+  
 }
-.select:hover{
+.select a{
+    color: #373737;
+ text-decoration: none;
+ 
+}
+.select:hover a{
     background: #FEBA0B;
     border-radius: 75px;
     color: aliceblue;
+    padding: 20px;
 }
 
 .nav_mod{
@@ -153,7 +159,7 @@ nav .grid{
     color: #373737;
 }
 
-.cover input[type="button"]{
+.cover a{
     padding: 10px 40px;
     margin-top: 40px;
     font-size: 18px;
@@ -165,10 +171,12 @@ nav .grid{
     box-shadow: 1px 1px 30px -5px #20202049;
     cursor: pointer;
     transition: box-shadow 500ms;
+    text-decoration: none;
 }
 
-.cover input[type="button"]:hover{
+.cover a:hover{
     box-shadow: 1px 1px 30px -5px #20202085;
+    color: #373737;
 }
 
 /*CARDS*/
@@ -180,7 +188,9 @@ nav .grid{
 
 }
 .productos .card{
-   margin-right:4%;
+ justify-content: center;
+    
+ 
     
 }
 
